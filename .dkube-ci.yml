@@ -9,3 +9,8 @@ pipelines:
   pipelines:
     - name: workflow.py
       run: true
+
+images:
+  path : images
+ images:
+    - name : my-image1
