@@ -12,5 +12,5 @@ pipelines:
 
 images:
   path : images
- images:
+  images:
     - name : my-image1
