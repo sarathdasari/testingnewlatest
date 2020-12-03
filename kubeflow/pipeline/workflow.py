@@ -27,7 +27,7 @@ divide_op = component_store.load_component("my_divide")
 
 # Define pipeline
 @dsl.pipeline(
-    name="New pipeline",
+    name="Today pipeline",
     description="Basic sample to show how to do CI with KFP using CloudBuild",
 )
 def pipeline(
