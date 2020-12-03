@@ -1,12 +1,1 @@
-components:
-  path: kubeflow/components
-  components:
-    - name: my_add
-    - name: my_divide
-
-pipelines:
-  path: kubeflow/pipeline
-  token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6Im9jZGt1YmUiLCJyb2xlIjoiZGF0YXNjaWVudGlzdCxtbGUscGUsb3BlcmF0b3IiLCJleHAiOjQ4NDY0Nzc4NzEsImlhdCI6MTYwNjQ3Nzg3MSwiaXNzIjoiREt1YmUifQ.6o2oU17CGi1Om61M-FKrJ7QHkzm8uI_bDeKqi69npxepJtTYxJH-1oT1OeaC_7UaBXRq_nbSl1GjMb4qtp0gXCZB9NPDvcCjvuOiQjGmri9mMEQaK6MgByRoZOW6GY6SGv82XtcIvuRSVAH8THBoNJQHk0wAQLEpTqymr7UXcpBkEb-I8L5zBdrWCLEE0RIr6u4Kr5DadCRMi4ri4UAs0SYHgYxG9qFNrrJPDCZxga4TyScz_DbJ5pg1HdM_F8wjLbav8opJIBj_Zmt8rJmoLLzAMIGDm_dVF6d4rBgInocifQEIfBOQodC32oiuyMR2GtfU-w77FYLc_c-gp_Sg3A
-  pipelines:
-    - name: workflow.py
-      run: false
+Dockerfile: Dockerfile
