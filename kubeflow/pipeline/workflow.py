@@ -27,7 +27,7 @@ divide_op = component_store.load_component("my_divide")
 
 # Define pipeline
 @dsl.pipeline(
-    name="new pipeline",
+    name="modified pipeline",
     description="test description",
 )
 def pipeline(
