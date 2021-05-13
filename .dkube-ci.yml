@@ -8,4 +8,4 @@ pipelines:
   path: kubeflow/pipeline
   pipelines:
     - name: workflow.py
-      run: false
+      run: true
