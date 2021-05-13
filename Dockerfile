@@ -1,1 +1,1 @@
-FROM ocdr/d3-datascience-tf-cpu:v1.14
+FROM ocdr/dkube-datascience-rs-pytorch-gpu-multiuser:v1.6-5
