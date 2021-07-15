@@ -1,5 +1,5 @@
 name: testing
-token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6ImRlZXBha2tvbmtpbWFsbGEiLCJyb2xlIjoiZGF0YXNjaWVudGlzdCxtbGUscGUiLCJkZXBsb3kiOmZhbHNlLCJleHAiOjQ4NjAzNzgwNzAsImlhdCI6MTYyMDM3ODA3MCwiaXNzIjoiRGt1YmUifQ.CfHm_t11GSxrPLHaWsQLPqBv2a-76n0nU_8SnsrVaMWRG4hfmJ-dv-3cQsDYWV-RGP-Cy5VSKcbmoq14d4CFkdPIqeVVhTYj-LERWnPNJ186ikrdye2v4sCAWz5j6TwQsuvFst_VsbeE6cgXjdNBFmPIuA1xnJ6zJlRRYw1J9qTImkjAyvCdkJzyPWDPHfqgNZVSo6mM_XClvLAWT8tYlqOH0vUPzBqSycy0vBkbfDHIaf-yLSjEGoy0CydndcsTiC1ob2dujyaLjuk_sxyUDfo37FNIo7sUuvUR3IpIYlnZDrThGYzq9BdJRD6GKTZQBhPkhMdM0s3rk52X8gw8oQ
+token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6Im9jZGt1YmUiLCJyb2xlIjoiZGF0YXNjaWVudGlzdCxtbGUscGUsb3BlcmF0b3IiLCJkZXBsb3kiOmZhbHNlLCJleHAiOjQ4NjYxOTYwNTAsImlhdCI6MTYyNjE5NjA1MCwiaXNzIjoiRGt1YmUifQ.7AKFfzuCscgtZHEIN2WJNE7ZsLJohXvN4hhBJafnexI7HL7oPYdf_amXvZ1K9ASfK7RWqdrK0Z-oCVUw2hjbaVNaLDHZVbxjsH-hWyZkxQ_w1ZGcbSHavt6HudivMfaZaDElDAuPmtGWJiIiIv3R-sxV6TesvUqnpF-JbxnMIoaezWckTjIAX14v0-7FF3Texe-uvimtQtuO_FZzESDwqiznYOfCqGDZ7Vg3hJh8RM2JSKUBrVx2UhXrbs_f3Pml6UZkzpWglUigHMbjyejyWRcPZZk3bnEaUMuzB22Bk7ybYXpUrnJY7jDzLcmLLfya8gpvhKDmXKAQnjV238GV-Q
 parameters:
   class: training
   training:
@@ -14,14 +14,14 @@ parameters:
     datums:
       workspace:
         data:
-          name: deepakkonkimalla:mnist-tf14
+          name: ocdkube:mnist
           version: master
         script: python model.py
       datasets:
-      - name: deepakkonkimalla:mnist-tf14
+      - name: ocdkube:mnist
         mountpath: "/opt/dkube/input"
       outputs:
-      - name: deepakkonkimalla:mnist-tf14
+      - name: ocdkue:mnist
         mountpath: "/opt/dkube/output"
     hyperparams:
       customkv: []
