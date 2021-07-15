@@ -21,7 +21,7 @@ parameters:
       - name: ocdkube:mnist
         mountpath: "/opt/dkube/input"
       outputs:
-      - name: ocdkue:mnist
+      - name: ocdkube:mnist
         mountpath: "/opt/dkube/output"
     hyperparams:
       customkv: []
