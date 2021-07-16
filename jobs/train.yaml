@@ -14,7 +14,7 @@ parameters:
     datums:
       workspace:
         data:
-          name: ocdkube:mnist
+          name: ocdkube:cicd-run
           version: master
         script: cd tf/classification/mnist/digits/classifier/program-2.x; python model.py
       datasets:
