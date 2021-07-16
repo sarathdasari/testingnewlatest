@@ -9,14 +9,14 @@ parameters:
         framework:
           choice: tensorflow
           details:
-            version: '1.14'
-            image: ocdr/d3-datascience-tf-cpu:v1.14-5
+            version: '2.0.0'
+            image: ocdr/dkube-datascience-tf-cpu:v2.0.0-5
     datums:
       workspace:
         data:
           name: ocdkube:mnist
           version: master
-        script: python model.py
+        script: cd tf/classification/mnist/digits/classifier/program-2.x; python model.py
       datasets:
       - name: ocdkube:mnist
         mountpath: "/opt/dkube/input"
