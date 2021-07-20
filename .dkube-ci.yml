@@ -1,5 +1,1 @@
-components:
-  path: kubeflow/components
-  components:
-    - name: my_add
-    - name: my_divide
+Dockerfile: Dockerfile
