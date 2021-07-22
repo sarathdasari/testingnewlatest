@@ -1,1 +1,1 @@
-FROM gcr.io/dkube-1/qa-1.4/custom1
+FROM ocdr/dkube-datascience-tf-gpu:v2.0.0-5
