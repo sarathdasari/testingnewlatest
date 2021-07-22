@@ -18,10 +18,10 @@ parameters:
           version: master
         script: cd tf/classification/mnist/digits/classifier/program-2.x; python model.py
       datasets:
-      - name: ocdkube:mnist
+      - name: ocdkube:mn
         mountpath: "/opt/dkube/input"
       outputs:
-      - name: ocdkube:mnist-1
+      - name: ocdkube:mn
         mountpath: "/opt/dkube/output"
     hyperparams:
       customkv: []
