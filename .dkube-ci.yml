@@ -6,21 +6,21 @@
 
 #Dockerfile: Dockerfile
 
-components:
-  path: kubeflow/components
-  components:
-    - name: my_add
-    - name: my_divide
+#components:
+ # path: kubeflow/components
+  #components:
+   # - name: my_add
+    #- name: my_divide
 
-pipelines:
-  path: kubeflow/pipeline
-  token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6Im9jZGt1YmUiLCJyb2xlIjoiZGF0YXNjaWVudGlzdCxtbGUscGUsb3BlcmF0b3IiLCJkZXBsb3kiOmZhbHNlLCJleHAiOjQ4NjcxMDYwMjcsImlhdCI6MTYyNzEwNjAyNywiaXNzIjoiRGt1YmUifQ.e-WHUOdsh9h_RBOQ9RHPNJmkvQjQAJz4nS9uix5HJMltmjKlLtnQfqgtWrsgFImAyx4RTK_WYxRf6M2lA5SehOX84p3IDkMdc-bsPF0XrOnD1bug_mPcWVU87AlYFaqcYbiEx1h38cAPADMnCus6MRoVzYlQOV_vu_45BEVDFiyKQ9ypJ0IdiDilZN7bCYOkbUzE5uEKFq6-Sl2gO0okLKzHZVkZG2EoBrNuidEL_sry0-hIiGc1zpvhzcKMDElryu8OzuM-zB3pMwxVcTkAXvGpAvUNkUxVD8ZbTdZu-CPmEWnM8tCX6jj-ttIEATy-je3X0yRMlxvLYuIdZ0KPDQ
-  pipelines:
-    - name: workflow.py
+#pipelines:
+ # path: kubeflow/pipeline
+  #token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6Im9jZGt1YmUiLCJyb2xlIjoiZGF0YXNjaWVudGlzdCxtbGUscGUsb3BlcmF0b3IiLCJkZXBsb3kiOmZhbHNlLCJleHAiOjQ4NjcxMDYwMjcsImlhdCI6MTYyNzEwNjAyNywiaXNzIjoiRGt1YmUifQ.e-WHUOdsh9h_RBOQ9RHPNJmkvQjQAJz4nS9uix5HJMltmjKlLtnQfqgtWrsgFImAyx4RTK_WYxRf6M2lA5SehOX84p3IDkMdc-bsPF0XrOnD1bug_mPcWVU87AlYFaqcYbiEx1h38cAPADMnCus6MRoVzYlQOV_vu_45BEVDFiyKQ9ypJ0IdiDilZN7bCYOkbUzE5uEKFq6-Sl2gO0okLKzHZVkZG2EoBrNuidEL_sry0-hIiGc1zpvhzcKMDElryu8OzuM-zB3pMwxVcTkAXvGpAvUNkUxVD8ZbTdZu-CPmEWnM8tCX6jj-ttIEATy-je3X0yRMlxvLYuIdZ0KPDQ
+  #pipelines:
+   # - name: workflow.py
+    #  run: true
+
+jobs:
+  path: jobs
+  jobs:
+    - name: train.yaml
       run: true
-
-#jobs:
-  #path: jobs
-  #jobs:
-    #- name: train.yaml
-      #run: true
