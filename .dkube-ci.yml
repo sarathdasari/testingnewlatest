@@ -1,10 +1,10 @@
-#conda_env:
-  #path: conda_env.yaml
+conda_env:
+  path: jobs/conda_env.yaml
 
 #docker_envs:
    #- ocdr/custom-training:latest
 
-Dockerfile: Dockerfile
+#Dockerfile: Dockerfile
 
 #components:
  # path: kubeflow/components
