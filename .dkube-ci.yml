@@ -4,20 +4,20 @@
 #docker_envs:
  #  - ocdr/custom-training:latest
 
-#Dockerfile: Dockerfile
+Dockerfile: Dockerfile
 
-components:
-  path: kubeflow/components
-  components:
-    - name: my_add
-    - name: my_divide
+#components:
+ # path: kubeflow/components
+  #components:
+   # - name: my_add
+    #- name: my_divide
 
-pipelines:
-  path: kubeflow/pipeline
-  token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6InNhcmF0aGRhc2FyaSIsInJvbGUiOiJkYXRhc2NpZW50aXN0LG1sZSxwZSIsImRlcGxveSI6ZmFsc2UsImV4cCI6NDg3MTY4MzM3NywiaWF0IjoxNjMxNjgzMzc3LCJpc3MiOiJEa3ViZSJ9.aQ3oUGBOHf_OdBCsJAyaBXTQLkd_66vrIeE2_bJ5RPuiuuOfRNuheQvG85zlHEwI8zT7kMogILOUQsi_P5MDGzrdtmVY5EcwdqSqFLdmSx63o5X-gvkQ9Ja5Ehn3gbel7QaMpH11gFantRxFZF1V5eiM_ZZAHDn9iffeoFwu1vWOtRmtKAroo-dbTCzpkJlzqDCG-5WyaMhf3HSGq_RhvWLQZZKDa-21x6A2WNo-WawbpmI6hby_S-tl2xubzQqU0wqBTWBozxTz-RyNs2fqmSsH_QSs3sAtSvvAKmxQtzVVJX_32Lx3i-DVRAzN0WvwSg7Ux4M1adgAHgrF6l-K-g 
-  pipelines:
-    - name: workflow.py
-      run: true
+#pipelines:
+ # path: kubeflow/pipeline
+  #token: eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0YmNkZjBmZWJmNDRiOGRhZGQxZWIyOGM2MjhkYWYxIn0.eyJ1c2VybmFtZSI6InNhcmF0aGRhc2FyaSIsInJvbGUiOiJkYXRhc2NpZW50aXN0LG1sZSxwZSIsImRlcGxveSI6ZmFsc2UsImV4cCI6NDg3MTY4MzM3NywiaWF0IjoxNjMxNjgzMzc3LCJpc3MiOiJEa3ViZSJ9.aQ3oUGBOHf_OdBCsJAyaBXTQLkd_66vrIeE2_bJ5RPuiuuOfRNuheQvG85zlHEwI8zT7kMogILOUQsi_P5MDGzrdtmVY5EcwdqSqFLdmSx63o5X-gvkQ9Ja5Ehn3gbel7QaMpH11gFantRxFZF1V5eiM_ZZAHDn9iffeoFwu1vWOtRmtKAroo-dbTCzpkJlzqDCG-5WyaMhf3HSGq_RhvWLQZZKDa-21x6A2WNo-WawbpmI6hby_S-tl2xubzQqU0wqBTWBozxTz-RyNs2fqmSsH_QSs3sAtSvvAKmxQtzVVJX_32Lx3i-DVRAzN0WvwSg7Ux4M1adgAHgrF6l-K-g 
+  #pipelines:
+   # - name: workflow.py
+    #  run: true
 
 #jobs:
  # path: jobs
