@@ -4,7 +4,7 @@
 #docker_envs:
  #  - ocdr/custom-training:latest
 
-Dockerfile: Dockerfile
+#Dockerfile: Dockerfile
 
 #components:
  # path: kubeflow/components
@@ -24,3 +24,9 @@ Dockerfile: Dockerfile
   #jobs:
    # - name: train.yaml
     #  run: true
+
+jobs: 
+  path: jobs
+  jobs:
+    - name: train.yaml #jobs/train.yaml contains job configuration
+      run: true # run the job. 
