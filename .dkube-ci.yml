@@ -25,7 +25,7 @@
    # - name: train.yaml
     #  run: true
 
-jobs: 
+jobs: #
   path: jobs
   jobs:
     - name: train.yaml #jobs/train.yaml contains job configuration
