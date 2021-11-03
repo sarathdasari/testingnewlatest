@@ -1,5 +1,5 @@
 conda_env:
-  path: jobs/conda_env.yaml
+  path: conda_env.yaml
 
 #docker_envs:
  #  - ocdr/custom-training:latest
