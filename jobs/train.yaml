@@ -11,7 +11,7 @@ parameters:
           choice: tensorflow
           details:
             version: 2.0.0
-            image: 'ocdr/dkube-datascience-tf-cpu:v2.0.0-6'
+            image: 'ocdr/dkube-datascience-tf-cpu:v2.0.0-8'
     datums:
       workspace:
         data:
