@@ -15,14 +15,14 @@ parameters:
     datums:
       workspace:
         data:
-          name: 'ocdkube:tf-example-0251285494'
+          name: 'mnist'
           version: ''
         script: python mnist/train.py
       datasets:
-        - name: 'ocdkube:mnist'
+        - name: 'sarathdasari:mnist'
           mountpath: /mnist
       outputs:
-        - name: 'ocdkube:mnist'
+        - name: 'sarathdasari:mnist'
           mountpath: /model
     featuresets: {}
     tags: []
