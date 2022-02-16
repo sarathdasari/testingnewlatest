@@ -1,5 +1,5 @@
-name: mnist
-user: sarathdasari
+name: mn
+user: ocdkube
 parameters:
   class: training
   training:
@@ -11,18 +11,18 @@ parameters:
           choice: tensorflow
           details:
             version: 2.0.0
-            image: 'ocdr/dkube-datascience-tf-cpu:v2.0.0-8'
+            image: 'ocdr/dkube-datascience-tf-cpu:v2.0.0-9'
     datums:
       workspace:
         data:
-          name: 'sarathdasari:mnist'
+          name: 'ocdkube:mn'
           version: ''
         script: python mnist/train.py
       datasets:
-        - name: 'sarathdasari:mnist'
+        - name: 'ocdkube:mn'
           mountpath: /mnist
       outputs:
-        - name: 'sarathdasari:mnist'
+        - name: 'ocdkube:mn'
           mountpath: /model
     featuresets: {}
     tags: []
